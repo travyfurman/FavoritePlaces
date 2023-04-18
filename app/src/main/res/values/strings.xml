@@ -8,7 +8,6 @@
     <string name="btn_text_save">SAVE</string>
     <string name="note_text_no_favorites_found">Once you add a favorite place, they will be saved here!</string>
     <string name="image_content_description">image</string>
-    <string name="google_maps_api_key">AIzaSyBu9F9cf8My2BB84aAfjljufeYIbTlmzog</string>
     <string name="btn_text_view_on_map">VIEW ON MAP</string>
     <string name="btn_select_current_location">SELECT CURRENT LOCATION</string>
 

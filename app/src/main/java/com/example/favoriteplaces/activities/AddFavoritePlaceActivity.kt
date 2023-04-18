@@ -26,6 +26,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
+import com.example.favoriteplaces.BuildConfig
 import com.example.favoriteplaces.R
 import com.example.favoriteplaces.database.DatabaseHandler
 import com.example.favoriteplaces.databinding.ActivityAddFavoritePlaceBinding
@@ -81,7 +82,7 @@ class AddFavoritePlaceActivity : AppCompatActivity(), View.OnClickListener {
         if (!Places.isInitialized()) {
             Places.initialize(
                 this@AddFavoritePlaceActivity,
-                resources.getString(R.string.google_maps_api_key)
+                BuildConfig.API_KEY
             )
         }
 
